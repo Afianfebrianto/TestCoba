@@ -11,3 +11,12 @@ data class Club(
     val location: String,
     val photo: Int
 ) : Parcelable
+
+@Parcelize
+data class Club1(
+    val name: String,
+    val description: String,
+    val faounded: String,
+    val location: String,
+    val photo: Int
+) : Parcelable
